@@ -4,7 +4,7 @@
 ### 2. [Safely accessing lateinit variables](https://github.com/zojae031/My-Weekly/blob/master/Android/%23395%20Safely%20accessing%20lateinit%20variables.md)
 - 코틀린에서 lateinit에 어떻게 안전하게 접근 할 수 있을지 알아볼 수 있다.
 
-### 3. [From RxJava 2 to Kotlin Flow: Threading]([https://github.com/zojae031/My-Weekly/blob/master/Android/%23398%20From%20RxJava%202%20to%20Kotlin%20Flow%20_Threading.md](https://github.com/zojae031/My-Weekly/blob/master/Android/%23398 From RxJava 2 to Kotlin Flow _Threading.md))
+### 3. [From RxJava 2 to Kotlin Flow: Threading](https://github.com/zojae031/My-Weekly/blob/master/Android/%23398%20From%20RxJava%202%20to%20Kotlin%20Flow%20_Threading.md)
 
 - Rxjava와 Coroutine의 스레드 관리방법을 알 수 있다.
 - ObserveOn과 SubscribeOn에 대한 고찰을 할 수 있다.

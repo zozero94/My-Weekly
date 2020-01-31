@@ -24,13 +24,40 @@
 
 1. 코틀린에서의 High-order Function
 
-![image-20200131190140429](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20200131190140429.png)
+```kotlin
+fun main() {
+    val firstClassObject: (String) -> Unit = { println(it) }
+    highOrderFunction(firstClassObject)
+}
+
+fun highOrderFunction(firstClassObject: (String) -> Unit) {
+    firstClassObject("고차함수")
+}
+```
 
 2. Java 코드로의 변환 (kotlin code -> kotlin bytecode -> decompile java)
 
-![image-20200131190236149](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20200131190236149.png)
+```java
+public final class MainKt {
+   public static final void main() {
+      Function1 firstClassObject = (Function1)null.INSTANCE;
+      highOrderFunction(firstClassObject);
+   }
 
+   public static final void highOrderFunction(@NotNull Function1 firstClassObject) {
+      Intrinsics.checkParameterIsNotNull(firstClassObject, "firstClassObject");
+      firstClassObject.invoke("고차함수");
+   }
+}
+
+```
 
 3. 일급객체의 개념이 존재하지 않기 때문에 interface를 활용하여 invoke하여 사용하는 것을 볼 수 있다.
 
-![image-20200131190255271](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20200131190255271.png)
+```java
+/** A function that takes 1 argument. */
+public interface Function1<in P1, out R> : Function<R> {
+    /** Invokes the function with the specified argument. */
+    public operator fun invoke(p1: P1): R
+}
+```

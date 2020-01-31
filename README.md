@@ -14,3 +14,7 @@
 
 ### 1. [Utils class in Kotlin](https://github.com/zojae031/My-Weekly/blob/master/Kotlin/%23182%20Utils%20class%20in%20Kotlin.md)
 - Kotlin에서는 static 키워드가 없다. Java와 호환성 좋게 운용하기 위해 어떻게 Util class를 작성 하는것이 좋을까?
+
+### 2. [Understanding Higher-Order Functions and Lambdas in Kotlin]()
+
+- Kotlin에서 고차함수와 람다식에 대한 이해

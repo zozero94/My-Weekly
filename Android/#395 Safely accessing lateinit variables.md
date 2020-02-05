@@ -1,4 +1,8 @@
-# [Safely accessing lateinit variables](https://okkotlin.com/lateinits/) (Android Weekly #395)
+# [Safely accessing lateinit variables](https://okkotlin.com/lateinits/) 
+
+## # (Android Weekly #395)
+
+
 
 <u>[Main Issue]</u>
 
@@ -18,7 +22,6 @@
     3. 같은 파일의 최 상위 레벨에서 사용 가능
 
 <hr>
-
 [Sub Issue]
 
 - Reflection 이란? 

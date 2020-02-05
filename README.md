@@ -18,3 +18,10 @@
 ### 2. [Understanding Higher-Order Functions and Lambdas in Kotlin](https://github.com/zojae031/My-Weekly/blob/master/Kotlin/%23178%20Understanding%20Higher-Order%20Functions%20and%20Lambdas%20in%20Kotlin.md)
 
 - Kotlin에서 고차함수와 람다식에 대한 이해
+
+### 3. [Inline Functions]([https://github.com/zojae031/My-Weekly/blob/master/Kotlin/%23183%20Inline%20Functions.md](https://github.com/zojae031/My-Weekly/blob/master/Kotlin/%23183 Inline Functions.md))
+
+- Inline 키워드의 장단점과 동작방식
+- reified type에 대한 이해
+- 제네릭의 이해
+

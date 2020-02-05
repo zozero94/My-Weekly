@@ -10,6 +10,10 @@
 - ObserveOn과 SubscribeOn에 대한 고찰을 할 수 있다.
 - *Coroutine을 공부하지 않아 관련 부분은 일단 제외하였다.*
 
+### 4. [The Power of Types for Errors](https://github.com/zojae031/My-Weekly/blob/master/Android/%23399%20The%20Power%20of%20Types%20for%20Errors.md)
+- 다양한 에러처리를 보기 쉽게 타입별로 구분 할수 있다.
+- sealed class의 사용법을 알 수 있다.
+
 # Kotlin
 
 ### 1. [Utils class in Kotlin](https://github.com/zojae031/My-Weekly/blob/master/Kotlin/%23182%20Utils%20class%20in%20Kotlin.md)

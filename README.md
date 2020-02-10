@@ -14,6 +14,11 @@
 - 다양한 에러처리를 보기 쉽게 타입별로 구분 할수 있다.
 - sealed class의 사용법을 알 수 있다.
 
+### 5. [The power of sealed classes in Kotlin](https://github.com/zojae031/My-Weekly/blob/master/Android/%23400%20The%20power%20of%20sealed%20classes%20in%20Kotlin.md)
+
+- Sealed class를 통한 상태 제한하는 방법을 알 수 있다.
+- When 조건문과 함께 사용하는 방법을 알 수 있다.
+
 # Kotlin
 
 ### 1. [Utils class in Kotlin](https://github.com/zojae031/My-Weekly/blob/master/Kotlin/%23182%20Utils%20class%20in%20Kotlin.md)

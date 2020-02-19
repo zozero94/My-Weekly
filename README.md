@@ -35,5 +35,5 @@
 - 제네릭의 이해
 
 ### 4. [Enforcing type safety of IDs in Kotlin]()
-- 
+- 유효한 ID를 관리하는 방법
 
